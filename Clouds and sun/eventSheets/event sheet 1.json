@@ -1,5 +1,54 @@
 {
 	"name": "Event sheet 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 577264319063617
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Cloud",
+					"sid": 874991579193520,
+					"parameters": {
+						"x": "Cloud.X + 1",
+						"y": "Cloud.Y "
+					}
+				}
+			],
+			"sid": 588198577884592
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "Cloud",
+					"sid": 132647518136237,
+					"parameters": {
+						"comparison": 5,
+						"x-co-ordinate": "940"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Cloud",
+					"sid": 860158775989451,
+					"parameters": {
+						"x": "Cloud.X - 1025",
+						"y": "Cloud.Y "
+					}
+				}
+			],
+			"sid": 864519017660441
+		}
+	],
 	"sid": 306056368955839
 }
