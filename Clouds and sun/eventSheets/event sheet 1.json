@@ -14,9 +14,9 @@
 				{
 					"id": "set-position",
 					"objectClass": "Cloud",
-					"sid": 874991579193520,
+					"sid": 161901649540242,
 					"parameters": {
-						"x": "Cloud.X + 1",
+						"x": "Cloud.X + 0.3",
 						"y": "Cloud.Y "
 					}
 				}
