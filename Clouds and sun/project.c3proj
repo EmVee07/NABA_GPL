@@ -20,7 +20,11 @@
 		"items": [
 			"Sky",
 			"Cloud",
-			"Sun"
+			"Sun",
+			"Airplane",
+			"Hills",
+			"HMG",
+			"Projectile"
 		],
 		"subfolders": []
 	},

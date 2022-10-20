@@ -5,6 +5,27 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 513251495888664
+				}
+			],
+			"actions": [
+				{
+					"id": "set-angle",
+					"objectClass": "Projectile",
+					"sid": 252609543624571,
+					"parameters": {
+						"angle": "HMG.Angle - 45"
+					}
+				}
+			],
+			"sid": 799531641361998
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "every-tick",
 					"objectClass": "System",
 					"sid": 577264319063617
@@ -18,6 +39,23 @@
 					"parameters": {
 						"x": "Cloud.X + 0.3",
 						"y": "Cloud.Y "
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Airplane",
+					"sid": 937772791009460,
+					"parameters": {
+						"x": "Airplane.X - 0.6",
+						"y": "Airplane.Y + random (1, -1)"
+					}
+				},
+				{
+					"id": "move-forward",
+					"objectClass": "Projectile",
+					"sid": 141456211569783,
+					"parameters": {
+						"distance": "2"
 					}
 				}
 			],
@@ -48,6 +86,91 @@
 				}
 			],
 			"sid": 864519017660441
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "Airplane",
+					"sid": 753351619556484,
+					"parameters": {
+						"comparison": 3,
+						"x-co-ordinate": "-60"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Airplane",
+					"sid": 790150190767308,
+					"parameters": {
+						"x": "Airplane.X + 1025",
+						"y": "Airplane.Y"
+					}
+				}
+			],
+			"sid": 666243391225024
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-on-screen",
+					"objectClass": "Projectile",
+					"sid": 564261754551289,
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Projectile",
+					"sid": 622340967388815
+				}
+			],
+			"sid": 310663580501169
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 475342330615563,
+					"parameters": {
+						"interval-seconds": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "HMG",
+					"sid": 890017515963490,
+					"parameters": {
+						"object": "Projectile",
+						"layer": "\"Foreground\"",
+						"image-point": "1",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "move-to-bottom",
+					"objectClass": "Projectile",
+					"sid": 973768486153089
+				},
+				{
+					"id": "set-angle",
+					"objectClass": "Projectile",
+					"sid": 210463239226264,
+					"parameters": {
+						"angle": "HMG.Angle - 45"
+					}
+				}
+			],
+			"sid": 324018533889434
 		}
 	],
 	"sid": 306056368955839
