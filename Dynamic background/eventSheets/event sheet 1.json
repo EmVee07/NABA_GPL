@@ -1,5 +1,27 @@
 {
 	"name": "Event sheet 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 878501284887610
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "Seagul",
+					"sid": 719200296653929,
+					"parameters": {
+						"x": "Seagul.X - 0.5"
+					}
+				}
+			],
+			"sid": 946731124320308
+		}
+	],
 	"sid": 230182672366008
 }

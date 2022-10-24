@@ -20,7 +20,9 @@
 		"items": [
 			"SkyAndSea",
 			"PirateShip",
-			"Sprite"
+			"Sprite",
+			"Flag",
+			"Seagul"
 		],
 		"subfolders": []
 	},
