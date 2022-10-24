@@ -21,6 +21,31 @@
 				}
 			],
 			"sid": 946731124320308
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "Seagul",
+					"sid": 356279721419782,
+					"parameters": {
+						"comparison": 3,
+						"x-co-ordinate": "-50"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "Seagul",
+					"sid": 910866607224591,
+					"parameters": {
+						"x": "905"
+					}
+				}
+			],
+			"sid": 560837724126350
 		}
 	],
 	"sid": 230182672366008
