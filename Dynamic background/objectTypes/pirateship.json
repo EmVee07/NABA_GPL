@@ -1,0 +1,57 @@
+{
+	"name": "PirateShip",
+	"plugin-id": "Sprite",
+	"sid": 352048372695612,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 96,
+						"height": 100,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5607050,
+						"collisionPoly": {
+							"points": [
+								0.28653146125845036,
+								0.2755,
+								0.5,
+								0.2885,
+								0.8133125325013001,
+								0.179,
+								0.8736349453978159,
+								0.5,
+								0.9339573582943318,
+								0.9365,
+								0.5,
+								0.9995,
+								0.21112844513780551,
+								0.7965,
+								0.03016120644825793,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 706819258810159,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
