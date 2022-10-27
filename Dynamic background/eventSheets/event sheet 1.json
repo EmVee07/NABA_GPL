@@ -5,6 +5,36 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 309246485563065
+				}
+			],
+			"actions": [
+				{
+					"id": "set-scale",
+					"objectClass": "Seagul",
+					"sid": 144896247449899,
+					"parameters": {
+						"scale": "random (0.1, 0.5)"
+					}
+				},
+				{
+					"id": "set-magnitude",
+					"objectClass": "Seagul",
+					"sid": 432850743711188,
+					"behaviorType": "Sine",
+					"parameters": {
+						"magnitude": "5 * (Seagul.Width / Seagul.ImageWidth)"
+					}
+				}
+			],
+			"sid": 972496783610413
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "every-tick",
 					"objectClass": "System",
 					"sid": 878501284887610
@@ -14,9 +44,9 @@
 				{
 					"id": "set-x",
 					"objectClass": "Seagul",
-					"sid": 841314796468143,
+					"sid": 501307939400978,
 					"parameters": {
-						"x": "Seagul.X - 0.3"
+						"x": "Seagul.X - 2 * (Seagul.Width / Seagul.ImageWidth)"
 					}
 				}
 			],
@@ -43,63 +73,34 @@
 					"parameters": {
 						"x": "905"
 					}
-				}
-			],
-			"sid": 560837724126350
-		},
-		{
-			"eventType": "block",
-			"conditions": [
+				},
 				{
-					"id": "compare-x",
+					"id": "set-y",
 					"objectClass": "Seagul",
-					"sid": 450532234121562,
+					"sid": 850377038577276,
 					"parameters": {
-						"comparison": 0,
-						"x-co-ordinate": "905"
+						"y": "random (19, 285)"
 					}
-				}
-			],
-			"actions": [
+				},
 				{
 					"id": "set-scale",
 					"objectClass": "Seagul",
-					"sid": 408803498294759,
+					"sid": 370029955158595,
 					"parameters": {
 						"scale": "random (0.1, 0.5)"
 					}
 				},
 				{
-					"id": "set-y",
+					"id": "set-magnitude",
 					"objectClass": "Seagul",
-					"sid": 979123718227746,
+					"sid": 381333207556211,
+					"behaviorType": "Sine",
 					"parameters": {
-						"y": "random (19, 285)"
+						"magnitude": "5 * (Seagul.Width / Seagul.ImageWidth)"
 					}
 				}
 			],
-			"sid": 293424452298600
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 369167468810740
-				}
-			],
-			"actions": [
-				{
-					"id": "set-scale",
-					"objectClass": "Seagul",
-					"sid": 506709961859395,
-					"parameters": {
-						"scale": "random (0.1, 0.5)"
-					}
-				}
-			],
-			"sid": 480063331087358
+			"sid": 560837724126350
 		}
 	],
 	"sid": 230182672366008
