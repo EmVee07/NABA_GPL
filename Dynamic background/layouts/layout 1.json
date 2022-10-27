@@ -253,9 +253,15 @@
 								"wave": "sine",
 								"period": 1.5,
 								"period-random": 0,
+<<<<<<< HEAD
 								"period-offset": 0.4375,
 								"period-offset-random": 0,
 								"magnitude": 2,
+=======
+								"period-offset": -0.3999999999999999,
+								"period-offset-random": 0,
+								"magnitude": 5,
+>>>>>>> 53c3d171ed5ae2d1ff2dee6c17cd0cf1691a6827
 								"magnitude-random": 0,
 								"enabled": true,
 								"live-preview": false
@@ -297,9 +303,15 @@
 								"wave": "sine",
 								"period": 1.5,
 								"period-random": 0,
+<<<<<<< HEAD
 								"period-offset": 0.4375,
 								"period-offset-random": 0,
 								"magnitude": 2,
+=======
+								"period-offset": -0.3999999999999999,
+								"period-offset-random": 0,
+								"magnitude": 5,
+>>>>>>> 53c3d171ed5ae2d1ff2dee6c17cd0cf1691a6827
 								"magnitude-random": 0,
 								"enabled": true,
 								"live-preview": false
@@ -307,8 +319,8 @@
 						}
 					},
 					"world": {
-						"x": 318.00091057890546,
-						"y": 278.07560036399184,
+						"x": 227,
+						"y": 226,
 						"width": 96,
 						"height": 100,
 						"originX": 0.5,
@@ -341,9 +353,15 @@
 								"wave": "sine",
 								"period": 1.5,
 								"period-random": 0,
+<<<<<<< HEAD
 								"period-offset": 0.4375,
 								"period-offset-random": 0,
 								"magnitude": 2,
+=======
+								"period-offset": -0.3999999999999999,
+								"period-offset-random": 0,
+								"magnitude": 5,
+>>>>>>> 53c3d171ed5ae2d1ff2dee6c17cd0cf1691a6827
 								"magnitude-random": 0,
 								"enabled": true,
 								"live-preview": false
@@ -385,9 +403,15 @@
 								"wave": "sine",
 								"period": 1.5,
 								"period-random": 0,
+<<<<<<< HEAD
 								"period-offset": 0.4375,
 								"period-offset-random": 0,
 								"magnitude": 2,
+=======
+								"period-offset": -0.3999999999999999,
+								"period-offset-random": 0,
+								"magnitude": 5,
+>>>>>>> 53c3d171ed5ae2d1ff2dee6c17cd0cf1691a6827
 								"magnitude-random": 0,
 								"enabled": true,
 								"live-preview": false
@@ -429,9 +453,15 @@
 								"wave": "sine",
 								"period": 1.5,
 								"period-random": 0,
+<<<<<<< HEAD
 								"period-offset": 0.4375,
 								"period-offset-random": 0,
 								"magnitude": 2,
+=======
+								"period-offset": -0.3999999999999999,
+								"period-offset-random": 0,
+								"magnitude": 5,
+>>>>>>> 53c3d171ed5ae2d1ff2dee6c17cd0cf1691a6827
 								"magnitude-random": 0,
 								"enabled": true,
 								"live-preview": false
@@ -473,9 +503,15 @@
 								"wave": "sine",
 								"period": 1.5,
 								"period-random": 0,
+<<<<<<< HEAD
 								"period-offset": 0.4375,
 								"period-offset-random": 0,
 								"magnitude": 2,
+=======
+								"period-offset": -0.3999999999999999,
+								"period-offset-random": 0,
+								"magnitude": 5,
+>>>>>>> 53c3d171ed5ae2d1ff2dee6c17cd0cf1691a6827
 								"magnitude-random": 0,
 								"enabled": true,
 								"live-preview": false
@@ -485,6 +521,50 @@
 					"world": {
 						"x": 166.56159869107356,
 						"y": 59.590641021728544,
+						"width": 96,
+						"height": 100,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Seagul",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 8,
+					"instanceVariables": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "vertical",
+								"wave": "sine",
+								"period": 1.5,
+								"period-random": 0,
+								"period-offset": -0.3999999999999999,
+								"period-offset-random": 0,
+								"magnitude": 5,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 560,
+						"y": 122,
 						"width": 96,
 						"height": 100,
 						"originX": 0.5,

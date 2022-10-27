@@ -7,13 +7,18 @@
 				{
 					"id": "on-start-of-layout",
 					"objectClass": "System",
+<<<<<<< HEAD
 					"sid": 589914340523785
+=======
+					"sid": 309246485563065
+>>>>>>> 53c3d171ed5ae2d1ff2dee6c17cd0cf1691a6827
 				}
 			],
 			"actions": [
 				{
 					"id": "set-scale",
 					"objectClass": "Seagul",
+<<<<<<< HEAD
 					"sid": 481340648301042,
 					"parameters": {
 						"scale": "random (0.1, 0.5)"
@@ -21,6 +26,24 @@
 				}
 			],
 			"sid": 508700468149178
+=======
+					"sid": 144896247449899,
+					"parameters": {
+						"scale": "random (0.1, 0.5)"
+					}
+				},
+				{
+					"id": "set-magnitude",
+					"objectClass": "Seagul",
+					"sid": 432850743711188,
+					"behaviorType": "Sine",
+					"parameters": {
+						"magnitude": "5 * (Seagul.Width / Seagul.ImageWidth)"
+					}
+				}
+			],
+			"sid": 972496783610413
+>>>>>>> 53c3d171ed5ae2d1ff2dee6c17cd0cf1691a6827
 		},
 		{
 			"eventType": "block",
@@ -35,9 +58,15 @@
 				{
 					"id": "set-x",
 					"objectClass": "Seagul",
+<<<<<<< HEAD
 					"sid": 681543070846142,
 					"parameters": {
 						"x": "Seagul.X - 1 * (Seagul.Width/Seagul.ImageWidth)"
+=======
+					"sid": 501307939400978,
+					"parameters": {
+						"x": "Seagul.X - 2 * (Seagul.Width / Seagul.ImageWidth)"
+>>>>>>> 53c3d171ed5ae2d1ff2dee6c17cd0cf1691a6827
 					}
 				}
 			],
@@ -90,21 +119,42 @@
 						"x": "905"
 					}
 				},
+<<<<<<< HEAD
 				{
 					"id": "set-scale",
 					"objectClass": "Seagul",
 					"sid": 532317975793467,
+=======
+				{
+					"id": "set-y",
+					"objectClass": "Seagul",
+					"sid": 850377038577276,
+					"parameters": {
+						"y": "random (19, 285)"
+					}
+				},
+				{
+					"id": "set-scale",
+					"objectClass": "Seagul",
+					"sid": 370029955158595,
+>>>>>>> 53c3d171ed5ae2d1ff2dee6c17cd0cf1691a6827
 					"parameters": {
 						"scale": "random (0.1, 0.5)"
 					}
 				},
 				{
-					"id": "set-y",
+					"id": "set-magnitude",
 					"objectClass": "Seagul",
+<<<<<<< HEAD
 					"sid": 761171015132488,
+=======
+					"sid": 381333207556211,
+					"behaviorType": "Sine",
+>>>>>>> 53c3d171ed5ae2d1ff2dee6c17cd0cf1691a6827
 					"parameters": {
-						"y": "random (19, 285)"
+						"magnitude": "5 * (Seagul.Width / Seagul.ImageWidth)"
 					}
+<<<<<<< HEAD
 				},
 				{
 					"id": "set-magnitude",
@@ -114,6 +164,8 @@
 					"parameters": {
 						"magnitude": "5 * (Seagul.Width/Seagul.ImageWidth)"
 					}
+=======
+>>>>>>> 53c3d171ed5ae2d1ff2dee6c17cd0cf1691a6827
 				}
 			],
 			"sid": 560837724126350
