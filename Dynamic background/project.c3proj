@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 30802,
+	"savedWithRelease": 31702,
 	"name": "Animated Background",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -11,7 +11,7 @@
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
-			"version": "r308.2",
+			"version": "r317.2",
 			"bundled": false
 		},
 		{
@@ -19,7 +19,7 @@
 			"id": "Sin",
 			"name": "Sine",
 			"author": "Scirra",
-			"version": "r308.2",
+			"version": "r317.2",
 			"bundled": false
 		}
 	],
@@ -198,7 +198,8 @@
 		"preloadSounds": true,
 		"cordovaiOSScheme": "app",
 		"cordovaAndroidScheme": "https",
-		"autoReloadScriptsOnPreview": false
+		"autoReloadScriptsOnPreview": false,
+		"exportFileStructure": "flat"
 	},
 	"viewportWidth": 854,
 	"viewportHeight": 480,
